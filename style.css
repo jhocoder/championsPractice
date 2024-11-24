@@ -1,0 +1,95 @@
+* {
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  min-height: 98%;
+  overflow: hidden;
+  background-color: #f3f3f0;
+}
+html body #principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1vh;
+}
+html body #principal #title {
+  width: 85%;
+}
+html body #principal #title h2 {
+  color: #000000;
+}
+html body #principal #title h2 #cate {
+  color: #ffc038;
+}
+html body #principal #title h2 #attack {
+  color: #ff3838;
+}
+html body #principal #BoxImg {
+  width: 85%;
+  height: 57vh;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.62);
+  border-radius: 10px;
+}
+html body #principal #BoxImg #imageRandom {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  border-radius: 10px;
+}
+html body #principal #BoxImg #characterPhoto {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+html body #principal #boxAnswers {
+  width: 84%;
+  height: 7vh;
+  text-align: center;
+  font-size: 17px;
+  color: #4b4b4b;
+  box-shadow: inset 0px 0px 1px 0px rgba(68, 68, 68, 0.3254901961);
+  border-style: none;
+}
+html body #principal #boxAnswers:hover {
+  color: #16895b;
+}
+html body #principal #buttons {
+  width: 86%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+}
+html body #principal #buttons #search {
+  width: 47%;
+  height: 7vh;
+  background-color: rgba(17, 71, 94, 0.9921568627);
+  color: white;
+  border-style: none;
+  font-size: 17px;
+  border-radius: 10px;
+}
+html body #principal #buttons #search:hover {
+  background-color: rgba(76, 134, 160, 0.9921568627);
+}
+html body #principal #buttons #again {
+  width: 47%;
+  height: 7vh;
+  border-style: none;
+  background-color: rgba(45, 198, 196, 0.9921568627);
+  color: white;
+  font-size: 17px;
+  border-radius: 10px;
+}
+html body #principal #buttons #again:hover {
+  background-color: rgba(46, 133, 131, 0.9921568627);
+}/*# sourceMappingURL=style.css.map */
